@@ -13,15 +13,17 @@ package behavioral.observer;
 public class TestObserver {
 
     public static void main(String[] args) {
-        Subject s1 = new Subject();
+        Subject sub = new Subject();
         Observer obs1 = new ObserverA();
         Observer obs2 = new ObserverB();
 
-        s1.addObserver(obs1);
-        s1.addObserver(obs2);
+        sub.addObserver(obs1);
+        sub.addObserver(obs2);
 
-        s1.setValue(99);
-        s1.setValue(100);
+        // 当目标发生变化时，会通知到已添加的观察者们
+        sub.setPercent(-3.0);
+        sub.setPercent(-5.0);
+        sub.setPercent(-7.0);
     }
 
 }
