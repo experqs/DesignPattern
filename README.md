@@ -1,5 +1,7 @@
-# 设计模式（Design Pattern）
+## 设计模式（Design Pattern）
 Some commonly used design patterns.
+
+一些常用的设计模式。
 
 ### 1. 创建型（creational）
 

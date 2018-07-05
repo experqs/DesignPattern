@@ -17,6 +17,7 @@ public class TestObserver {
         Observer obs1 = new ObserverA();
         Observer obs2 = new ObserverB();
 
+        // 添加观察者
         sub.addObserver(obs1);
         sub.addObserver(obs2);
 
