@@ -6,6 +6,7 @@ package creational.simpleFactory;
  *
  * 简单工厂：在工厂类包含了必要的逻辑判断，根据客户端的选择条件动态地实例化相关类。缺点：若想新增运算，需要增加运算类、再修改工厂类。
  *
+ * （本设计模式复用了策略模式 behavioral.strategy 的运算类）
  */
 public class TestSimpleFactory {
 
