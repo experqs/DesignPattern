@@ -10,4 +10,6 @@ Some commonly used design patterns.
 ### 2. 行为型（behavioral）
     - 观察者模式（Observer）
     - 策略模式（Strategy）
+
 ### 3. 结构型（structural）
+    - 代理模式（Proxy）
