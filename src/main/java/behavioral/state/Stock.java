@@ -6,13 +6,12 @@ package behavioral.state;
  */
 public class Stock {
 
-    private Integer lossYears;  // 连续亏损年份
+    private Integer lossYears;  // 连续不盈利的年数
     private State state;        // 股票当前状态
 
     public Integer getLossYears() {
         return lossYears;
     }
-
     public void setLossYears(Integer lossYears) {
         this.lossYears = lossYears;
     }
