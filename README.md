@@ -15,3 +15,4 @@ Some commonly used design patterns.
 ### 3. 结构型（structural）
     - 代理模式（Proxy）
     - 适配器模式（Adapter）
+    - 外观模式/门面模式（Facade）

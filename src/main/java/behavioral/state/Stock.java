@@ -2,7 +2,7 @@ package behavioral.state;
 
 /**
  * 具有某种状态的具体目标类
- * 这里以股票作为例子
+ * 这里以上市公司的股票作为例子
  */
 public class Stock {
 
