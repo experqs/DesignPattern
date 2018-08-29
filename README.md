@@ -6,6 +6,8 @@ Some commonly used design patterns and their application scenarios.
 
 ### 1. 创建型（creational）
 
+    - 单例模式（Singleton Pattern）
+    
     - 简单工厂模式（Simple Factory）
         eg：一个工厂内提供加、减、乘等运算操作实例。
 

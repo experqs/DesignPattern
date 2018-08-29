@@ -15,12 +15,12 @@ public class TestTemplate {
 
         ClassFather someone;
 
-        someone = new ClassSonA();	// 指向新建的ClassSonA对象
+        someone = new ClassSonA();	// 指向一个ClassSonA对象
         someone.templateMethod();	// 调用父类的模版方法，该方法的某个步骤调用了ClassSonA的实现
 
         System.out.println("--------------------");
 
-        someone = new ClassSonB();	// 指向新建的ClassSonB对象
+        someone = new ClassSonB();	// 指向一个ClassSonB对象
         someone.templateMethod();	// 仍然是调用父类的模版方法，但这次方法的某个步骤切换成ClassSonB的实现
 
     }
